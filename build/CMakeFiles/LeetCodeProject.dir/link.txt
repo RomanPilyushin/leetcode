@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/LeetCodeProject.dir/src/main.cpp.o CMakeFiles/LeetCodeProject.dir/src/twoSum.cpp.o -o LeetCodeProject 

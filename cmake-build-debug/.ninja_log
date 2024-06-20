@@ -1,0 +1,6 @@
+# ninja log v6
+10	1183	7406138077962038	CMakeFiles/LeetCodeProject.dir/src/twoSum.cpp.obj	7f870ff3555227ae
+4	1192	7406138077902146	CMakeFiles/LeetCodeProject.dir/src/main.cpp.obj	48b8becae13ca458
+1193	1611	7406138089785853	LeetCodeProject.exe	1f609dd22d4d29c7
+10	642	7406139184635864	CMakeFiles/LeetCodeProject.dir/src/main.cpp.obj	48b8becae13ca458
+642	810	7406139190965859	LeetCodeProject.exe	1f609dd22d4d29c7
