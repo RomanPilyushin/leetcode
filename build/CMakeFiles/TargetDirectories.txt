@@ -1,3 +1,0 @@
-/mnt/c/Users/User/CLionProjects/leetcode/build/CMakeFiles/LeetCodeProject.dir
-/mnt/c/Users/User/CLionProjects/leetcode/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/User/CLionProjects/leetcode/build/CMakeFiles/rebuild_cache.dir

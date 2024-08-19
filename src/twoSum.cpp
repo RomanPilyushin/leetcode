@@ -1,4 +1,5 @@
 #include "twoSum.h"
+#include <vector>
 
 std::vector<int> Solution::twoSum(std::vector<int>& nums, int target) {
     int n = nums.size();

@@ -1,0 +1,23 @@
+# ninja log v6
+1988	2087	7457808457122179	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	fe4bb4f701c0da07
+4	108	7457808437322509	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	d4cf50321b2f0adc
+108	1700	7457808453242524	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/release-1.12.1.zip	7076d027206e12dd
+1700	1795	7457808454202200	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	fc54ab5dac87fabc
+4	108	7457808437322509	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	d4cf50321b2f0adc
+1988	2087	7457808457122179	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	fe4bb4f701c0da07
+1700	1795	7457808454202200	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	fc54ab5dac87fabc
+108	1700	7457808453242524	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	7076d027206e12dd
+2280	2416	7457808460412168	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	3053718d5e97c620
+108	1700	7457808453242524	googletest-populate-prefix/src/release-1.12.1.zip	7076d027206e12dd
+108	1700	7457808453242524	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	7076d027206e12dd
+1796	1890	7457808455152171	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	30b6cf51066dea9e
+1796	1890	7457808455152171	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	30b6cf51066dea9e
+1891	1988	7457808456122218	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	6b3aeef791259034
+2280	2416	7457808460412168	CMakeFiles/googletest-populate-complete	3053718d5e97c620
+1891	1988	7457808456122218	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	6b3aeef791259034
+2088	2185	7457808458092190	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	f4e0c7b21b930fde
+2088	2185	7457808458092190	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	f4e0c7b21b930fde
+2185	2280	7457808459042189	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	674d7adc21862cd9
+2185	2280	7457808459042189	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	674d7adc21862cd9
+2280	2416	7457808460412168	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	3053718d5e97c620
+2280	2416	7457808460412168	C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	3053718d5e97c620
