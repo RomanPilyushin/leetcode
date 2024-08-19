@@ -41,50 +41,50 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target test_twoSum
+# Object build statements for EXECUTABLE target twoSum_test
 
 
 #############################################
-# Order-only phony target for test_twoSum
+# Order-only phony target for twoSum_test
 
-build cmake_object_order_depends_target_test_twoSum: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+build cmake_object_order_depends_target_twoSum_test: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
-build CMakeFiles/test_twoSum.dir/src/twoSum.cpp.obj: CXX_COMPILER__test_twoSum_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/src/twoSum.cpp || cmake_object_order_depends_target_test_twoSum
-  DEP_FILE = CMakeFiles\test_twoSum.dir\src\twoSum.cpp.obj.d
+build CMakeFiles/twoSum_test.dir/src/twoSum.cpp.obj: CXX_COMPILER__twoSum_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/src/twoSum.cpp || cmake_object_order_depends_target_twoSum_test
+  DEP_FILE = CMakeFiles\twoSum_test.dir\src\twoSum.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
-  OBJECT_DIR = CMakeFiles\test_twoSum.dir
-  OBJECT_FILE_DIR = CMakeFiles\test_twoSum.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\test_twoSum.dir\
-  TARGET_PDB = test_twoSum.pdb
+  OBJECT_DIR = CMakeFiles\twoSum_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\twoSum_test.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\twoSum_test.dir\
+  TARGET_PDB = twoSum_test.pdb
 
-build CMakeFiles/test_twoSum.dir/tests/test_twoSum.cpp.obj: CXX_COMPILER__test_twoSum_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/tests/test_twoSum.cpp || cmake_object_order_depends_target_test_twoSum
-  DEP_FILE = CMakeFiles\test_twoSum.dir\tests\test_twoSum.cpp.obj.d
+build CMakeFiles/twoSum_test.dir/tests/twoSum_test.cpp.obj: CXX_COMPILER__twoSum_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/tests/twoSum_test.cpp || cmake_object_order_depends_target_twoSum_test
+  DEP_FILE = CMakeFiles\twoSum_test.dir\tests\twoSum_test.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
-  OBJECT_DIR = CMakeFiles\test_twoSum.dir
-  OBJECT_FILE_DIR = CMakeFiles\test_twoSum.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\test_twoSum.dir\
-  TARGET_PDB = test_twoSum.pdb
+  OBJECT_DIR = CMakeFiles\twoSum_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\twoSum_test.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\twoSum_test.dir\
+  TARGET_PDB = twoSum_test.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test_twoSum
+# Link build statements for EXECUTABLE target twoSum_test
 
 
 #############################################
-# Link the executable test_twoSum.exe
+# Link the executable twoSum_test.exe
 
-build test_twoSum.exe: CXX_EXECUTABLE_LINKER__test_twoSum_Debug CMakeFiles/test_twoSum.dir/src/twoSum.cpp.obj CMakeFiles/test_twoSum.dir/tests/test_twoSum.cpp.obj | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+build twoSum_test.exe: CXX_EXECUTABLE_LINKER__twoSum_test_Debug CMakeFiles/twoSum_test.dir/src/twoSum.cpp.obj CMakeFiles/twoSum_test.dir/tests/twoSum_test.cpp.obj | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
   FLAGS = -g
   LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test_twoSum.dir
+  OBJECT_DIR = CMakeFiles\twoSum_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\test_twoSum.dir\
-  TARGET_FILE = test_twoSum.exe
-  TARGET_IMPLIB = libtest_twoSum.dll.a
-  TARGET_PDB = test_twoSum.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\twoSum_test.dir\
+  TARGET_FILE = twoSum_test.exe
+  TARGET_IMPLIB = libtwoSum_test.dll.a
+  TARGET_PDB = twoSum_test.pdb
 
 
 #############################################
@@ -520,7 +520,7 @@ build libgtest.a: phony lib/libgtest.a
 
 build libgtest_main.a: phony lib/libgtest_main.a
 
-build test_twoSum: phony test_twoSum.exe
+build twoSum_test: phony twoSum_test.exe
 
 # =============================================================================
 # Folder targets.
@@ -530,7 +530,7 @@ build test_twoSum: phony test_twoSum.exe
 #############################################
 # Folder: C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug
 
-build all: phony test_twoSum.exe _deps/googletest-build/all
+build all: phony twoSum_test.exe _deps/googletest-build/all
 
 # =============================================================================
 

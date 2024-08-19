@@ -11,21 +11,11 @@
 -- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
-CMake Warning (dev) at C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent.cmake:1331 (message):
-  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
-  not set.  The policy's OLD behavior will be used.  When using a URL
-  download, the timestamps of extracted files should preferably be that of
-  the time of extraction, otherwise code that depends on the extracted
-  contents might not be rebuilt if the URL changes.  The OLD behavior
-  preserves the timestamps from the archive instead, but this is usually not
-  what you want.  Update your project to the NEW behavior or specify the
-  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
-  robustness issue.
-Call Stack (most recent call first):
-  CMakeLists.txt:12 (FetchContent_Declare)
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
 -- Found Python: C:/Users/rpily/AppData/Local/Programs/Python/Python312/python.exe (found version "3.12.5") found components: Interpreter 
--- Configuring done (3.9s)
+CMake Warning at CMakeLists.txt:38 (message):
+  No matching test file found for main
+
+
+-- Configuring done (6.7s)
 -- Generating done (0.1s)
 -- Build files have been written to: C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug
