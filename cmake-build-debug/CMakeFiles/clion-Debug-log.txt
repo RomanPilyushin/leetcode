@@ -12,10 +12,10 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Found Python: C:/Users/rpily/AppData/Local/Programs/Python/Python312/python.exe (found version "3.12.5") found components: Interpreter 
-CMake Warning at CMakeLists.txt:38 (message):
+CMake Warning at CMakeLists.txt:44 (message):
   No matching test file found for main
 
 
--- Configuring done (6.7s)
+-- Configuring done (7.1s)
 -- Generating done (0.1s)
 -- Build files have been written to: C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug

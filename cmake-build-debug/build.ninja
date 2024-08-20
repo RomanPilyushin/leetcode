@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_twoSum_test: phony || cmake_object_order
 
 build CMakeFiles/twoSum_test.dir/src/twoSum.cpp.obj: CXX_COMPILER__twoSum_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/src/twoSum.cpp || cmake_object_order_depends_target_twoSum_test
   DEP_FILE = CMakeFiles\twoSum_test.dir\src\twoSum.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = CMakeFiles\twoSum_test.dir
   OBJECT_FILE_DIR = CMakeFiles\twoSum_test.dir\src
@@ -60,7 +60,7 @@ build CMakeFiles/twoSum_test.dir/src/twoSum.cpp.obj: CXX_COMPILER__twoSum_test_u
 
 build CMakeFiles/twoSum_test.dir/tests/twoSum_test.cpp.obj: CXX_COMPILER__twoSum_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/tests/twoSum_test.cpp || cmake_object_order_depends_target_twoSum_test
   DEP_FILE = CMakeFiles\twoSum_test.dir\tests\twoSum_test.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = CMakeFiles\twoSum_test.dir
   OBJECT_FILE_DIR = CMakeFiles\twoSum_test.dir\tests
@@ -76,7 +76,8 @@ build CMakeFiles/twoSum_test.dir/tests/twoSum_test.cpp.obj: CXX_COMPILER__twoSum
 # Link the executable twoSum_test.exe
 
 build twoSum_test.exe: CXX_EXECUTABLE_LINKER__twoSum_test_Debug CMakeFiles/twoSum_test.dir/src/twoSum.cpp.obj CMakeFiles/twoSum_test.dir/tests/twoSum_test.cpp.obj | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
-  FLAGS = -g
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g
+  LINK_FLAGS = --coverage
   LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\twoSum_test.dir
   POST_BUILD = cd .
@@ -237,7 +238,7 @@ build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depen
 
 build _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   DEP_FILE = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
-  FLAGS = -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -IC:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/include -IC:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googlemock -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir
   OBJECT_FILE_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\src
@@ -253,7 +254,7 @@ build _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.ob
 # Link the static library lib\libgmock.a
 
 build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj || lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -g
+  LANGUAGE_COMPILE_FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g
   OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -272,7 +273,7 @@ build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_
 
 build _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   DEP_FILE = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
-  FLAGS = -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googlemock -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir
   OBJECT_FILE_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\src
@@ -288,7 +289,7 @@ build _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main
 # Link the static library lib\libgmock_main.a
 
 build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj || lib/libgmock.a lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -g
+  LANGUAGE_COMPILE_FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g
   OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -377,7 +378,7 @@ build cmake_object_order_depends_target_gtest: phony || _deps/googletest-build/g
 
 build _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = _deps\googletest-build\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
-  FLAGS = -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -IC:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -IC:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest.dir
   OBJECT_FILE_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest.dir\src
@@ -393,7 +394,7 @@ build _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.ob
 # Link the static library lib\libgtest.a
 
 build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
-  LANGUAGE_COMPILE_FLAGS = -g
+  LANGUAGE_COMPILE_FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g
   OBJECT_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -412,7 +413,7 @@ build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_
 
 build _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
-  FLAGS = -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=c++14 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir
   OBJECT_FILE_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\src
@@ -428,7 +429,7 @@ build _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main
 # Link the static library lib\libgtest_main.a
 
 build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj || lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -g
+  LANGUAGE_COMPILE_FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g
   OBJECT_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

@@ -6,6 +6,12 @@ set(CMAKE_CXX_STANDARD 14)
 # Include directories
 include_directories(include)
 
+# Add coverage flags
+if (CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage -g -O0")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} --coverage")
+endif()
+
 # Download and include GoogleTest
 include(FetchContent)
 

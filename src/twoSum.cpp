@@ -1,6 +1,8 @@
 #include "twoSum.h"
 #include <vector>
 
+//https://leetcode.com/problems/two-sum/description/
+
 std::vector<int> Solution::twoSum(std::vector<int>& nums, int target) {
     int n = nums.size();
     for (int i = 0; i < n - 1; i++) {
