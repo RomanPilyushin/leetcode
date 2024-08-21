@@ -1,11 +1,8 @@
 # ninja log v6
-91	623	7458630575624951	CMakeFiles/twoSum_test.dir/src/twoSum.cpp.obj	a3c63263ea5b7a0f
-82	1662	7458630575534943	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	69f9e3d729861a89
-627	2271	7458630580984962	CMakeFiles/twoSum_test.dir/tests/twoSum_test.cpp.obj	b0015d249b2fb381
-70	11358	7458630575415225	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d0498d5f2bd4ee3
-11363	15883	7458630688334706	lib/libgtest.a	ff509cfd3161fe06
-15883	16019	7458630733546102	lib/libgtest_main.a	413f1c8401bd34dd
-16019	20910	7458630734896098	twoSum_test.exe	b72cf65f7e3b8c0a
-29	481	7458640770882114	CMakeFiles/twoSum_test.dir/src/twoSum.cpp.obj	a3c63263ea5b7a0f
-38	1745	7458640770972110	CMakeFiles/twoSum_test.dir/tests/twoSum_test.cpp.obj	b0015d249b2fb381
-1745	7222	7458640788040588	twoSum_test.exe	b72cf65f7e3b8c0a
+70	1142	7459452609164191	CMakeFiles/twoSum_test.dir/src/twoSum.cpp.obj	a3c63263ea5b7a0f
+63	1809	7459452609094196	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	69f9e3d729861a89
+1144	2824	7459452619904209	CMakeFiles/twoSum_test.dir/tests/twoSum_test.cpp.obj	b0015d249b2fb381
+22	13007	7459452608694179	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d0498d5f2bd4ee3
+13012	17566	7459452738578745	lib/libgtest.a	ff509cfd3161fe06
+17566	17700	7459452784128886	lib/libgtest_main.a	413f1c8401bd34dd
+17700	22747	7459452785458885	twoSum_test.exe	b72cf65f7e3b8c0a
