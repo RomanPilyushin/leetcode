@@ -87,6 +87,53 @@ build twoSum_test.exe: CXX_EXECUTABLE_LINKER__twoSum_test_Debug CMakeFiles/twoSu
   TARGET_IMPLIB = libtwoSum_test.dll.a
   TARGET_PDB = twoSum_test.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target validParentheses_test
+
+
+#############################################
+# Order-only phony target for validParentheses_test
+
+build cmake_object_order_depends_target_validParentheses_test: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+
+build CMakeFiles/validParentheses_test.dir/src/validParentheses.cpp.obj: CXX_COMPILER__validParentheses_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/src/validParentheses.cpp || cmake_object_order_depends_target_validParentheses_test
+  DEP_FILE = CMakeFiles\validParentheses_test.dir\src\validParentheses.cpp.obj.d
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles\validParentheses_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\validParentheses_test.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\validParentheses_test.dir\
+  TARGET_PDB = validParentheses_test.pdb
+
+build CMakeFiles/validParentheses_test.dir/tests/validParentheses_test.cpp.obj: CXX_COMPILER__validParentheses_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/tests/validParentheses_test.cpp || cmake_object_order_depends_target_validParentheses_test
+  DEP_FILE = CMakeFiles\validParentheses_test.dir\tests\validParentheses_test.cpp.obj.d
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles\validParentheses_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\validParentheses_test.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\validParentheses_test.dir\
+  TARGET_PDB = validParentheses_test.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target validParentheses_test
+
+
+#############################################
+# Link the executable validParentheses_test.exe
+
+build validParentheses_test.exe: CXX_EXECUTABLE_LINKER__validParentheses_test_Debug CMakeFiles/validParentheses_test.dir/src/validParentheses.cpp.obj CMakeFiles/validParentheses_test.dir/tests/validParentheses_test.cpp.obj | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g
+  LINK_FLAGS = --coverage
+  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\validParentheses_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\validParentheses_test.dir\
+  TARGET_FILE = validParentheses_test.exe
+  TARGET_IMPLIB = libvalidParentheses_test.dll.a
+  TARGET_PDB = validParentheses_test.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -523,6 +570,8 @@ build libgtest_main.a: phony lib/libgtest_main.a
 
 build twoSum_test: phony twoSum_test.exe
 
+build validParentheses_test: phony validParentheses_test.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -531,7 +580,7 @@ build twoSum_test: phony twoSum_test.exe
 #############################################
 # Folder: C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug
 
-build all: phony twoSum_test.exe _deps/googletest-build/all
+build all: phony twoSum_test.exe validParentheses_test.exe _deps/googletest-build/all
 
 # =============================================================================
 

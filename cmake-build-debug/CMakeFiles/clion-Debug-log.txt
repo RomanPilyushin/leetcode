@@ -16,6 +16,6 @@ CMake Warning at CMakeLists.txt:44 (message):
   No matching test file found for main
 
 
--- Configuring done (16.1s)
+-- Configuring done (6.9s)
 -- Generating done (0.1s)
 -- Build files have been written to: C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug
