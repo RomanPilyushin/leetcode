@@ -1,4 +1,5 @@
 C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/bestTime_test.dir
+C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/isPalindrome_test.dir
 C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/mergeTwoSortedLists_test.dir
 C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/twoSum_test.dir
 C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/validParentheses_test.dir

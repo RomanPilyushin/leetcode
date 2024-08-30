@@ -88,6 +88,53 @@ build bestTime_test.exe: CXX_EXECUTABLE_LINKER__bestTime_test_Debug CMakeFiles/b
   TARGET_PDB = bestTime_test.pdb
 
 # =============================================================================
+# Object build statements for EXECUTABLE target isPalindrome_test
+
+
+#############################################
+# Order-only phony target for isPalindrome_test
+
+build cmake_object_order_depends_target_isPalindrome_test: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+
+build CMakeFiles/isPalindrome_test.dir/src/isPalindrome.cpp.obj: CXX_COMPILER__isPalindrome_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/src/isPalindrome.cpp || cmake_object_order_depends_target_isPalindrome_test
+  DEP_FILE = CMakeFiles\isPalindrome_test.dir\src\isPalindrome.cpp.obj.d
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles\isPalindrome_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\isPalindrome_test.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\isPalindrome_test.dir\
+  TARGET_PDB = isPalindrome_test.pdb
+
+build CMakeFiles/isPalindrome_test.dir/tests/isPalindrome_test.cpp.obj: CXX_COMPILER__isPalindrome_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/tests/isPalindrome_test.cpp || cmake_object_order_depends_target_isPalindrome_test
+  DEP_FILE = CMakeFiles\isPalindrome_test.dir\tests\isPalindrome_test.cpp.obj.d
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles\isPalindrome_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\isPalindrome_test.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\isPalindrome_test.dir\
+  TARGET_PDB = isPalindrome_test.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target isPalindrome_test
+
+
+#############################################
+# Link the executable isPalindrome_test.exe
+
+build isPalindrome_test.exe: CXX_EXECUTABLE_LINKER__isPalindrome_test_Debug CMakeFiles/isPalindrome_test.dir/src/isPalindrome.cpp.obj CMakeFiles/isPalindrome_test.dir/tests/isPalindrome_test.cpp.obj | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g
+  LINK_FLAGS = --coverage
+  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\isPalindrome_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\isPalindrome_test.dir\
+  TARGET_FILE = isPalindrome_test.exe
+  TARGET_IMPLIB = libisPalindrome_test.dll.a
+  TARGET_PDB = isPalindrome_test.pdb
+
+# =============================================================================
 # Object build statements for EXECUTABLE target mergeTwoSortedLists_test
 
 
@@ -656,6 +703,8 @@ build gtest: phony lib/libgtest.a
 
 build gtest_main: phony lib/libgtest_main.a
 
+build isPalindrome_test: phony isPalindrome_test.exe
+
 build libgmock.a: phony lib/libgmock.a
 
 build libgmock_main.a: phony lib/libgmock_main.a
@@ -678,7 +727,7 @@ build validParentheses_test: phony validParentheses_test.exe
 #############################################
 # Folder: C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug
 
-build all: phony bestTime_test.exe mergeTwoSortedLists_test.exe twoSum_test.exe validParentheses_test.exe _deps/googletest-build/all
+build all: phony bestTime_test.exe isPalindrome_test.exe mergeTwoSortedLists_test.exe twoSum_test.exe validParentheses_test.exe _deps/googletest-build/all
 
 # =============================================================================
 
