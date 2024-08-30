@@ -1,7 +1,7 @@
 #include "isPalindrome.h"
 #include <string>
 
-bool c::isPal(std::string s) {
+bool isPalindrome::isPal(std::string s) {
 
     int left = 0;
     int right = s.length() - 1;
