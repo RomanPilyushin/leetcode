@@ -1,13 +1,8 @@
 # ninja log v6
-78	2191	7460383535463822	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	69f9e3d729861a89
-17	12394	7460383534843817	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d0498d5f2bd4ee3
-26	5407	7460383942174300	lib/libgtest.a	ff509cfd3161fe06
-50	734	7460384386593082	lib/libgtest_main.a	413f1c8401bd34dd
-30	733	7460384579697076	CMakeFiles/validParentheses_test.dir/src/validParentheses.cpp.obj	c3e0fb4aa69bbb22
-53	1749	7460384579927075	CMakeFiles/validParentheses_test.dir/tests/validParentheses_test.cpp.obj	feacd6be133fe2e
-1749	6635	7460384596882062	validParentheses_test.exe	fee8de184a3f0e87
-27	1577	7460385287667706	CMakeFiles/validParentheses_test.dir/tests/validParentheses_test.cpp.obj	feacd6be133fe2e
-1578	6609	7460385303177736	validParentheses_test.exe	fee8de184a3f0e87
-26	972	7460395299676049	CMakeFiles/validParentheses_test.dir/src/validParentheses.cpp.obj	c3e0fb4aa69bbb22
-26	927	7460397587493285	CMakeFiles/validParentheses_test.dir/src/validParentheses.cpp.obj	c3e0fb4aa69bbb22
-929	6236	7460397596513308	validParentheses_test.exe	fee8de184a3f0e87
+25	200	7467236036825886	CMakeFiles/mergeTwoSortedLists_test.dir/src/mergeTwoSortedLists.cpp.obj	ceb821c683cca87e
+19	1421	7467236036755894	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	69f9e3d729861a89
+201	1863	7467236038585902	CMakeFiles/mergeTwoSortedLists_test.dir/tests/mergeTwoSortedLists_test.cpp.obj	4dcb51875fe17c6b
+11	10777	7467236036676195	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d0498d5f2bd4ee3
+10782	15658	7467236144385919	lib/libgtest.a	ff509cfd3161fe06
+15658	15784	7467236193152164	lib/libgtest_main.a	413f1c8401bd34dd
+15789	20627	7467236194462147	mergeTwoSortedLists_test.exe	dafae65c8cc1b497

@@ -41,6 +41,53 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target mergeTwoSortedLists_test
+
+
+#############################################
+# Order-only phony target for mergeTwoSortedLists_test
+
+build cmake_object_order_depends_target_mergeTwoSortedLists_test: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+
+build CMakeFiles/mergeTwoSortedLists_test.dir/src/mergeTwoSortedLists.cpp.obj: CXX_COMPILER__mergeTwoSortedLists_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/src/mergeTwoSortedLists.cpp || cmake_object_order_depends_target_mergeTwoSortedLists_test
+  DEP_FILE = CMakeFiles\mergeTwoSortedLists_test.dir\src\mergeTwoSortedLists.cpp.obj.d
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles\mergeTwoSortedLists_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\mergeTwoSortedLists_test.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\mergeTwoSortedLists_test.dir\
+  TARGET_PDB = mergeTwoSortedLists_test.pdb
+
+build CMakeFiles/mergeTwoSortedLists_test.dir/tests/mergeTwoSortedLists_test.cpp.obj: CXX_COMPILER__mergeTwoSortedLists_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/tests/mergeTwoSortedLists_test.cpp || cmake_object_order_depends_target_mergeTwoSortedLists_test
+  DEP_FILE = CMakeFiles\mergeTwoSortedLists_test.dir\tests\mergeTwoSortedLists_test.cpp.obj.d
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles\mergeTwoSortedLists_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\mergeTwoSortedLists_test.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\mergeTwoSortedLists_test.dir\
+  TARGET_PDB = mergeTwoSortedLists_test.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mergeTwoSortedLists_test
+
+
+#############################################
+# Link the executable mergeTwoSortedLists_test.exe
+
+build mergeTwoSortedLists_test.exe: CXX_EXECUTABLE_LINKER__mergeTwoSortedLists_test_Debug CMakeFiles/mergeTwoSortedLists_test.dir/src/mergeTwoSortedLists.cpp.obj CMakeFiles/mergeTwoSortedLists_test.dir/tests/mergeTwoSortedLists_test.cpp.obj | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g
+  LINK_FLAGS = --coverage
+  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\mergeTwoSortedLists_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\mergeTwoSortedLists_test.dir\
+  TARGET_FILE = mergeTwoSortedLists_test.exe
+  TARGET_IMPLIB = libmergeTwoSortedLists_test.dll.a
+  TARGET_PDB = mergeTwoSortedLists_test.pdb
+
+# =============================================================================
 # Object build statements for EXECUTABLE target twoSum_test
 
 
@@ -568,6 +615,8 @@ build libgtest.a: phony lib/libgtest.a
 
 build libgtest_main.a: phony lib/libgtest_main.a
 
+build mergeTwoSortedLists_test: phony mergeTwoSortedLists_test.exe
+
 build twoSum_test: phony twoSum_test.exe
 
 build validParentheses_test: phony validParentheses_test.exe
@@ -580,7 +629,7 @@ build validParentheses_test: phony validParentheses_test.exe
 #############################################
 # Folder: C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug
 
-build all: phony twoSum_test.exe validParentheses_test.exe _deps/googletest-build/all
+build all: phony mergeTwoSortedLists_test.exe twoSum_test.exe validParentheses_test.exe _deps/googletest-build/all
 
 # =============================================================================
 
