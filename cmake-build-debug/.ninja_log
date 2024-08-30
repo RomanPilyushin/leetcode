@@ -6,3 +6,10 @@
 10924	15349	7467321200584493	lib/libgtest.a	ff509cfd3161fe06
 15349	15477	7467321244834509	lib/libgtest_main.a	413f1c8401bd34dd
 15477	20176	7467321246114516	bestTime_test.exe	4cc151785d81700c
+25	603	7467331650850539	CMakeFiles/isPalindrome_test.dir/src/isPalindrome.cpp.obj	d3213a75c340c14b
+48	1720	7467331651080549	CMakeFiles/isPalindrome_test.dir/tests/isPalindrome_test.cpp.obj	abca94ff4cb1c174
+1720	6455	7467331667790526	isPalindrome_test.exe	391d68929af17812
+20	498	7467332139603129	CMakeFiles/isPalindrome_test.dir/src/isPalindrome.cpp.obj	d3213a75c340c14b
+499	5466	7467332144393121	isPalindrome_test.exe	391d68929af17812
+19	438	7467333498457355	CMakeFiles/isPalindrome_test.dir/src/isPalindrome.cpp.obj	d3213a75c340c14b
+438	5289	7467333502657359	isPalindrome_test.exe	391d68929af17812
