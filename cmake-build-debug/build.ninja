@@ -41,6 +41,53 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target bestTime_test
+
+
+#############################################
+# Order-only phony target for bestTime_test
+
+build cmake_object_order_depends_target_bestTime_test: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+
+build CMakeFiles/bestTime_test.dir/src/bestTime.cpp.obj: CXX_COMPILER__bestTime_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/src/bestTime.cpp || cmake_object_order_depends_target_bestTime_test
+  DEP_FILE = CMakeFiles\bestTime_test.dir\src\bestTime.cpp.obj.d
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles\bestTime_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\bestTime_test.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\bestTime_test.dir\
+  TARGET_PDB = bestTime_test.pdb
+
+build CMakeFiles/bestTime_test.dir/tests/bestTime_test.cpp.obj: CXX_COMPILER__bestTime_test_unscanned_Debug C$:/Users/rpily/CLionProjects/leetcode/tests/bestTime_test.cpp || cmake_object_order_depends_target_bestTime_test
+  DEP_FILE = CMakeFiles\bestTime_test.dir\tests\bestTime_test.cpp.obj.d
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/rpily/CLionProjects/leetcode/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles\bestTime_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\bestTime_test.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\bestTime_test.dir\
+  TARGET_PDB = bestTime_test.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bestTime_test
+
+
+#############################################
+# Link the executable bestTime_test.exe
+
+build bestTime_test.exe: CXX_EXECUTABLE_LINKER__bestTime_test_Debug CMakeFiles/bestTime_test.dir/src/bestTime.cpp.obj CMakeFiles/bestTime_test.dir/tests/bestTime_test.cpp.obj | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+  FLAGS = -fprofile-arcs -ftest-coverage -g -O0 -g
+  LINK_FLAGS = --coverage
+  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bestTime_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\bestTime_test.dir\
+  TARGET_FILE = bestTime_test.exe
+  TARGET_IMPLIB = libbestTime_test.dll.a
+  TARGET_PDB = bestTime_test.pdb
+
+# =============================================================================
 # Object build statements for EXECUTABLE target mergeTwoSortedLists_test
 
 
@@ -599,6 +646,8 @@ build _deps/googletest-build/googletest/install/strip: phony _deps/googletest-bu
 # =============================================================================
 # Target aliases.
 
+build bestTime_test: phony bestTime_test.exe
+
 build gmock: phony lib/libgmock.a
 
 build gmock_main: phony lib/libgmock_main.a
@@ -629,7 +678,7 @@ build validParentheses_test: phony validParentheses_test.exe
 #############################################
 # Folder: C:/Users/rpily/CLionProjects/leetcode/cmake-build-debug
 
-build all: phony mergeTwoSortedLists_test.exe twoSum_test.exe validParentheses_test.exe _deps/googletest-build/all
+build all: phony bestTime_test.exe mergeTwoSortedLists_test.exe twoSum_test.exe validParentheses_test.exe _deps/googletest-build/all
 
 # =============================================================================
 

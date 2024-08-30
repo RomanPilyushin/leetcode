@@ -1,8 +1,17 @@
 # ninja log v6
-25	200	7467236036825886	CMakeFiles/mergeTwoSortedLists_test.dir/src/mergeTwoSortedLists.cpp.obj	ceb821c683cca87e
-19	1421	7467236036755894	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	69f9e3d729861a89
-201	1863	7467236038585902	CMakeFiles/mergeTwoSortedLists_test.dir/tests/mergeTwoSortedLists_test.cpp.obj	4dcb51875fe17c6b
-11	10777	7467236036676195	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d0498d5f2bd4ee3
-10782	15658	7467236144385919	lib/libgtest.a	ff509cfd3161fe06
-15658	15784	7467236193152164	lib/libgtest_main.a	413f1c8401bd34dd
-15789	20627	7467236194462147	mergeTwoSortedLists_test.exe	dafae65c8cc1b497
+23	335	7467293928026907	CMakeFiles/bestTime_test.dir/src/bestTime.cpp.obj	4e81e9f37c5da006
+17	1568	7467293927966898	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	69f9e3d729861a89
+338	1978	7467293931176917	CMakeFiles/bestTime_test.dir/tests/bestTime_test.cpp.obj	127d8a006c755a48
+9	12629	7467293927886880	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d0498d5f2bd4ee3
+12633	17270	7467294054127185	lib/libgtest.a	ff509cfd3161fe06
+17270	17399	7467294100496898	lib/libgtest_main.a	413f1c8401bd34dd
+24	333	7467296594003601	CMakeFiles/bestTime_test.dir/src/bestTime.cpp.obj	4e81e9f37c5da006
+34	1558	7467296594113616	CMakeFiles/bestTime_test.dir/tests/bestTime_test.cpp.obj	127d8a006c755a48
+1559	6499	7467296609352428	bestTime_test.exe	4cc151785d81700c
+17	299	7467303418225183	CMakeFiles/bestTime_test.dir/src/bestTime.cpp.obj	4e81e9f37c5da006
+300	5235	7467303421055186	bestTime_test.exe	4cc151785d81700c
+22	2075	7467303667832358	CMakeFiles/bestTime_test.dir/tests/bestTime_test.cpp.obj	127d8a006c755a48
+2076	7496	7467303688372350	bestTime_test.exe	4cc151785d81700c
+23	531	7467306940719643	CMakeFiles/bestTime_test.dir/src/bestTime.cpp.obj	4e81e9f37c5da006
+36	1611	7467306940839644	CMakeFiles/bestTime_test.dir/tests/bestTime_test.cpp.obj	127d8a006c755a48
+1611	6544	7467306956599689	bestTime_test.exe	4cc151785d81700c
